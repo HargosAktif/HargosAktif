@@ -121,7 +121,7 @@
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-HargosAktif-181717?style=for-the-badge&logo=github)](https://github.com/HargosAktif)
-[![Instagram](https://img.shields.io/badge/Instagram-slmmiracakkus-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/herkimseyimxd)
+[![Instagram](https://img.shields.io/badge/Instagram-xsociety-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/miracakkussla)
 [![Email](https://img.shields.io/badge/Email-miracakkus836@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:miracakkus836@gmail.com)
 
 </div>
