@@ -116,7 +116,7 @@ Merhaba ben Miraç Siber güvenlik ve etik hacking alanına yönelik biriyim.
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-HargosAktif-181717?style=for-the-badge&logo=github)](https://github.com/HargosAktif)
+[![GitHub](https://img.shields.io/badge/GitHub-HargosAktif-181717?style=for-the-badge&logo=github)](https://github.com/LaxenTgit)
 [![Instagram](https://img.shields.io/badge/Instagram-xsociety-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/alwayshimlol)
 [![Email](https://img.shields.io/badge/Email-miracakkus836@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:miracakkus836@gmail.com)
 
