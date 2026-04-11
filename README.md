@@ -4,9 +4,6 @@
 
 <br>
 ```markdown
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:667eea,100:764ba2&height=120&section=header&text=LatenT&fontSize=65&fontColor=ffffff" width="100%"/>
-</div>
 
 ```bash
 ┌──(latent㉿kali)-[~]
@@ -32,6 +29,28 @@ Network taramaları, otomasyon araçları, WiFi atakları ve web pentest konular
 - Web Application Pentesting
 - Python ile kendi güvenlik araçlarımı geliştirme
 
+---
+
+---
+## 🛡️ **Gerçek Pentest Deneyimlerim**
+
+### **Okul Ağı Pentest (Legal & İzinli)**
+
+🏫 School Pentest: Okulda Güvenlik Denetimi (Yetkili)
+
+Bir pentester adayı olarak en büyük tecrübelerimden birini okulumun bilişim hocasından izin alarak gerçekleştirdiğim ağ taramasında edindim. Birçok kişi "tool açar geçerim" diye düşünürken, ben sistemin içine girip yapılandırma hatalarını analiz ettim.
+
+Neler Yaptım?
+
+    Ağ Keşfi (Scanning): Nmap ve yardımcı script'lerle okul ağını taradım. Hedefim sadece "bağlanmak" değil, hangi servislerin gereksiz yere açık olduğunu bulmaktı.
+
+    Zafiyet Tespiti: Yaptığım tarama sonucunda okulun tüm akıllı tahtalarının aynı root şifresine sahip olduğunu ve hiçbirinin "default" ayarlardan çıkarılmadığını fark ettim.
+
+    Servis Analizi: Tahtalar üzerinde SSH (Port 22) ve RPC servislerinin herkese açık olduğunu gördüm. Bu, ağdaki herhangi birinin (veya dışarıdan sızan birinin) tüm sınıflara aynı anda uzaktan erişim sağlayabileceği anlamına geliyordu.
+
+    Raporlama: Bu durumu bir "açık buldum, sistemi çökerttim" kafasıyla değil, etik bir araştırmacı gibi hocamla paylaştım. Şifrelerin değiştirilmesi ve portların kapatılması konusunda teknik öneriler sundum.
+
+Sonuç: Bu çalışma bana siber güvenliğin sadece hacklemek değil, analiz etmek ve korumak olduğunu öğretti. 13 yaşında olmam, ağ segmentasyonu ve yetki yönetimi (IAM) hatalarını görmeme engel olmadı.
 ---
 
 ### Current Focus & Projects
