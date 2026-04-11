@@ -1,19 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?
-type=waving
-&color=0:000000,50:0f0c29,100:302b63
-&height=240
-&section=header
-&text=LatenT%20//%20KALI%20MODE
-&fontSize=52
-&fontColor=00ff9f
-&fontAlignY=38
-&desc=system%20status:%20active%20|%20security%20layer:%20enabled
-&descColor=aaaaaa
-&descSize=15
-&descAlignY=62
-&animation=fadeIn"
-  width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,30:0f0c29,60:302b63,100:667eea&height=240&section=header&text=Miraç%20%2F%20LatenT&fontSize=54&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Gece%20sessizleşince%20her%20şey%20netleşir.&descAlignY=62&descSize=16&animation=fadeIn" width="100%"/>
 </div>
 
 ---
