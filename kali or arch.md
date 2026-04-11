@@ -1,8 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,49:ff0000,50:0000ff,100:0000ff&height=200&section=header&text=LatenT&fontSize=90&fontColor=ffffff&fontAlignY=38&desc=Network%20Hacker%20%7C%20Pentester%20%7C%20CTF%20Player&descAlignY=58&descSize=17&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,49:ff0000,50:0000ff,100:0000ff&height=200&section=header&text=Kali%20OR%20Arch&fontSize=90&fontColor=ffffff&fontAlignY=38&animation=fadeIn" width="100%"/>
 
 </div>
+
 
 ```
 ┌──(latent㉿kali)-[~]
