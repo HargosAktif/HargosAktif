@@ -6,30 +6,31 @@
 ```python
 class LatenT:
     def __init__(self):
-        # — Kim?
+        # whoami?
         self.name       = "Miraç"
         self.alias      = "LatenT"
         self.age        = 13
-        self.location   = "Istanbul, Turkey 🇹🇷"
+        self.location   = "Samsun, Turkey 🇹🇷"
         
-        # — Karakter
+        # I love this
         self.traits     = [
-            "Az konuşur, çok dinler",
-            "Dışarıdan soğuk, içeriden ateş",
-            "Meraklı",
-            "Gece insanı 🌙",
+            "Yaşıtları ona göre saçmalıktır.",
+            "Yanlız Başıma Gezmeyi Severim",
+            "%100 Olmadan inanmayan birisiyim",
+            "Geceleri pek uyumam 🌙",
             "Müzik + Kod = Terapi"
+            "Aslında eğlenceli biriyim:3"
         ]
         
-        # — Çalışma Tarzı
-        self.peak_hours = "23:00 → 04:00"
-        self.style      = "lo-fi + rebzyyx + klavyede parmak dansı"
+        # Working style
+        self.peak_hours = "23:00 → 04:20"
+        self.style      = "lo-fi + rebzyyx + TV/girl + Cybercore + Under Your Spell + Dark triad"
         
-        # — Dış Dünya
-        self.interests  = ["müzik 🎵", "sinema & dizi 🎬", "spor 🏃‍♂️", "kahve ☕"]
+        # Myself :dD
+        self.interests  = ["müzik 🎵", "film & dizi 🎬", "spor 🏃‍♂️", "kahve ☕", "Koşu🏃‍♂️"]
         
-        # — Felsefe
-        self.motto      = "Az konuş. Çok üret."
+        # Felsefe
+        self.motto      = "Görmeden Anlamadan Yapılan şeyde er yada geç bir bozukluk vardır."
     
     def __str__(self):
-        return "Dışarıdan göründüğüm gibi değilim."
+        return "Dışarıdan göründüğüm gibi değilim. Sevmesini bilirim:3D"
