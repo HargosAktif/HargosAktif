@@ -1,7 +1,7 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,49:ff0000,50:0000ff,100:0000ff&height=200&section=header&text=Kali%20OR%20Arch&fontSize=60&fontColor=ffffff&fontAlignY=38&font=Verdana&desc=latent%20/%20laxent&descSize=18&descAlignY=60&animation=fadeIn" width="100%"/>
-
+  <span style="color:#00aaff;font-size:18px;">Kali</span>
+  <span style="color:#ffffff;font-size:18px;"> OR </span>
+  <span style="color:#ff3b3b;font-size:18px;">Arch</span>
 </div>
 
 
