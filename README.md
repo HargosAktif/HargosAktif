@@ -1,108 +1,115 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:667eea,100:764ba2&height=120&section=header&text=LatenT&fontSize=65&fontColor=ffffff" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:1a1a2e,100:16213e&height=140&section=header&text=LatenT&fontSize=72&fontColor=00d4ff&fontAlignY=55&desc=Offensive%20Security%20%7C%20Network%20Hacking%20%7C%20Tool%20Developer&descSize=14&descAlignY=78&descColor=8892b0" width="100%"/>
 </div>
 
 <br>
 
-```bash
+```
 ┌──(latent㉿kali)-[~]
-└─$ whoami
-> Miraç (LatenT) — 13 years old
-> Location: Turkey 🇹🇷
-> Started: 2 years ago
-> Currently: Learning, breaking, and automating things
-> Passion: Networks, Automation & Terminal
+└─$ cat whoami.txt
+
+  İsim     : Miraç — alias LatenT & LaXenT
+  Yaş      : 13
+  Konum    : Turkey 🇹🇷
+  Deneyim  : 2 yıl (günlük ~8-9 saat çalışarak)
+  Odak     : Offensive Security · Network Hacking · Pentest
+  Durum    : Öğreniyorum · Anonimliği sağlıyorum · Güvenlik duvarı çekiyorum
 ```
 
 ---
 
-### 🧠 About Me
+## Kimim
 
-Merhaba, ben Miraç. 13 yaşındayım ve **2 senedir** siber güvenlik ve offensive security ile uğraşıyorum.
+Siber güvenlikle **2 yıldır** uğraşıyorum — okul, kurs veya video serisi değil, doğrudan araştırarak, kırarak ve inşa ederek. Terminali seviyorum, araçların altında ne döndüğünü anlamak istiyorum ve öğrendiğim her şeyi pratiğe döküyorum.
 
-Network taramaları, otomasyon araçları, WiFi atakları ve web pentest konularında aktif olarak çalışıyorum. Lab ortamlarında ve CTF’lerde çok fazla pratik yapıyorum. Terminali ve CLI araçlarını çok seviyorum, onlar olmadan pek iş yapamıyorum.
+**Uzmanlık alanlarım:**
 
-**Özellikle iyi olduğum alanlar:**
-- Network Reconnaissance & Automation
-- WiFi Attacks (Evil Twin, MITM, Deauth)
-- Web Application Pentesting
-- Python ile kendi güvenlik araçlarımı geliştirme
-
----
-
----
-## 🛡️ **Gerçek Pentest Deneyimlerim**
-
-### **Okul Ağı Pentest (Legal & İzinli)**
-
-🏫 School Pentest: Okulda Güvenlik Denetimi (Yetkili)
-
-Bir pentester adayı olarak en büyük tecrübelerimden birini okulumun bilişim hocasından izin alarak gerçekleştirdiğim ağ taramasında edindim. Birçok kişi "tool açar geçerim" diye düşünürken, ben sistemin içine girip yapılandırma hatalarını analiz ettim.
-
-Neler Yaptım?
-
-    Ağ Keşfi (Scanning): Nmap ve yardımcı script'lerle okul ağını taradım. Hedefim sadece "bağlanmak" değil, hangi servislerin gereksiz yere açık olduğunu bulmaktı.
-
-    Zafiyet Tespiti: Yaptığım tarama sonucunda okulun tüm akıllı tahtalarının aynı root şifresine sahip olduğunu ve hiçbirinin "default" ayarlardan çıkarılmadığını fark ettim.
-
-    Servis Analizi: Tahtalar üzerinde SSH (Port 22) ve RPC servislerinin herkese açık olduğunu gördüm. Bu, ağdaki herhangi birinin (veya dışarıdan sızan birinin) tüm sınıflara aynı anda uzaktan erişim sağlayabileceği anlamına geliyordu.
-
-    Raporlama: Bu durumu bir "açık buldum, sistemi çökerttim" kafasıyla değil, etik bir araştırmacı gibi hocamla paylaştım. Şifrelerin değiştirilmesi ve portların kapatılması konusunda teknik öneriler sundum.
-
-Sonuç: Bu çalışma bana siber güvenliğin sadece hacklemek değil, analiz etmek ve korumak olduğunu öğretti. 13 yaşında olmam, ağ segmentasyonu ve yetki yönetimi (IAM) hatalarını görmeme engel olmadı.
----
-
-### Current Focus & Projects
-
-- **MAtexX Scanner** → Kendi yazdığım reconnaissance aracı (Whois + Nmap + OSINT aynı anda çalışıyor) # yapım aşamasında ama hala
-- Python ile otomasyon script’leri ve scanner’lar
-- HackTheBox ve TryHackMe üzerinde düzenli machine çözüyorum (Tek Gecede 2-3 arası)
-- Evil Twin ve MITM atakları üzerine pratikler Yada direkt wifi saldırıları bana göre iyi ve uzmanlık alanım
+- **Network Recon & Enumeration** — Nmap scripting, servis analizi, ağ haritalama
+- **WiFi Güvenliği** — Evil Twin, Deauth, MITM, Aircrack-ng suite
+- **Web Uygulama Güvenliği** — XSS, SQLi, IDOR, Burp Suite workflow
+- **Araç Geliştirme** — Python ile sıfırdan scanner ve otomasyon araçları
 
 ---
 
-### Skills
+## Gerçek Deneyimlerim
 
-**Languages**  
-Python • Go • C# • JavaScript • Bash • HTML/CSS
+### 🏫 Okul Ağı Güvenlik Denetimi — Yetkili Pentest
 
-**Systems**  
-Kali Linux • Parrot OS • Ubuntu • Fedora • Arch Linux
+Bilişim öğretmenimden yazılı izin alarak okul ağını uçtan uca taradım.
 
-**Core Interests**  
-Network Scanning & Enumeration • WiFi Security • Web Pentesting • Tool Development • Automation
+**Bulduklarım:**
+- Tüm akıllı tahtalar aynı default root şifresini kullanıyordu — hiçbiri hardened edilmemiş
+- SSH (22) ve RPC portları ağdaki herkese açıktı
+- Teorik saldırı senaryosu: ağa giren herhangi biri tüm sınıflara eş zamanlı uzaktan erişebilirdi
 
----
-
-### Tools I Use Frequently
-
-Nmap • Wireshark • Bettercap • SQLMap • Burp Suite • Metasploit • Gobuster • Feroxbuster • Aircrack-ng Suite • Custom Python Tools
+**Sonuç:** Teknik rapor hazırlayıp öğretmenime ilettim. Şifreler değiştirildi, portlar kapatıldı en önemlisi 'root' şifresi değiştirildi.
 
 ---
 
-### 📊 GitHub Stats
+### 🐛 Bug Bounty — XSS Açığı Tespiti ve Raporlama
+
+Birkaç hedef üzerinde bağımsız araştırma yaparak XSS açıkları tespit ettim, PoC hazırlayıp raporladım. Ödeme aldım ama kişisel bir banka hesabım olmadığı için ailem ödemeyi aldı.
+
+---
+
+## Aktif Projeler (sadece 3 tanesi)
+
+| Proje | Açıklama | Durum |
+|---|---|---|
+| **MAtexX Scanner** | Whois + Nmap + OSINT tek pipeline'da — Python | 🔧 Geliştiriliyor |
+| **SEA Terminal** | Gemini API destekli, pentest modüllü AI asistan | ✅ Çalışıyor |
+| **FinderQ** | Bir Domaindeki Tüm Açıkları Bulan Python Scripti  | ✅ Aktif |
+
+---
+
+## Teknik
+
+**Bildiğim Yazılım Diller**
+```
+Python · Go · C# · JavaScript · Bash · Assembly (temel)
+```
+
+**İşletim Sistemleri (bildiklerim)**
+```
+Kali Linux (ana) · Parrot OS · Arch · BlackArch · Ubuntu · Windows
+```
+
+**Kullandığım Araçlar**
+```
+Nmap · Wireshark · Bettercap · Metasploit · Burp Suite
+SQLMap · Gobuster · Feroxbuster · Aircrack-ng · Scapy · Hashcat
+```
+
+**Aktif KUllandığım Platformlar**
+```
+HackTheBox · TryHackMe
+```
+
+---
+
+## GitHub İstatistikleri
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=LaxenTgit&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=667eea&text_color=c9d1d9"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LaxenTgit&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=LaxenTgit&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=8892b0"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LaxenTgit&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=8892b0"/>
 </div>
 
 ---
 
-### 📫 Contact
+## İletişim
 
 <div align="center">
-  <a href="https://github.com/LaxenTgit"><img src="https://img.shields.io/badge/GitHub-LaxenTgit-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
-  <a href="mailto:miracakkus836@gmail.com"><img src="https://img.shields.io/badge/Email-miracakkus836@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/LaxenTgit">
+    <img src="https://img.shields.io/badge/GitHub-LaxenTgit-0d1117?style=for-the-badge&logo=github&logoColor=00d4ff&labelColor=0d1117"/>
+  </a>
+  &nbsp;
+  <a href="mailto:miracakkus836@gmail.com">
+    <img src="https://img.shields.io/badge/Email-miracakkus836@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=00d4ff&labelColor=0d1117"/>
+  </a>
 </div>
 
 <br>
 
 <div align="center">
-  <strong>"Terminal is my best friend."</strong>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0f0f0f&height=80&section=footer" width="100%"/>
 </div>
-```
-
----
-
-Değiştirmek istediğin yer olursa (daha kısa, daha uzun, bir şey ekle/çıkar) hemen söyle, anında düzenleyeyim.
