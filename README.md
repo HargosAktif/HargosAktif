@@ -2,8 +2,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:1a1a2e,100:16213e&height=140&section=header&text=LatenT&fontSize=72&fontColor=00d4ff&fontAlignY=55&desc=Offensive%20Security%20%7C%20Network%20Hacking%20%7C%20Tool%20Developer&descSize=14&descAlignY=78&descColor=8892b0" width="100%"/>
 </div>
 
-![TryHackMe](./assets/thm-badge.png)
-
 <br>
 
 ```
