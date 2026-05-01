@@ -48,11 +48,11 @@ Bilişim öğretmenimden yazılı izin alarak okul ağını uçtan uca taradım.
 
 ### 🐛 Bug Bounty — XSS Açığı Tespiti ve Raporlama
 
-Birkaç hedef üzerinde bağımsız araştırma yaparak XSS açıkları tespit ettim, PoC hazırlayıp raporladım. Ödeme aldım ama kişisel bir banka hesabım olmadığı için ailem ödemeyi aldı.
+Birkaç hedef üzerinde bağımsız araştırma yaparak XSS açıkları tespit ettim, PoC hazırlayıp raporladım. Ödeme aldım ama kişisel bir banka hesabım olmadığı için ailem parayı aldı ve bu şekilde bağımsız olmak yerine bazen bazı gruplar benimle iletişime geçiyor ve benden test yapmamı istiyorlar.
 
 ---
 
-## Aktif Projeler (sadece 3 tanesi)
+## Aktif Projeler (sadece burda olanlar bazılarını yazmadım)
 
 | Proje | Açıklama | Durum |
 |---|---|---|
@@ -70,6 +70,17 @@ Birkaç hedef üzerinde bağımsız araştırma yaparak XSS açıkları tespit e
 *** Zamanla daha fazla proje yapmaya çalışıcam yaptığım çoğu projeyi 1 saatlik kullanıp atıyorum çünkü sadece ctf veya legal ortamlarda hack yaparken işime yarıyolar üstte olanlarsa adam akıllı yazdığım scriptler ***
 
 ---
+
+### Aktif olarak
+** Bir Kaç kişiye kişisel eğitim verdim**
+** Parasız sızma testleri yaptım **
+** Bir grup için FiveM'de oyun yapma teklifi aldım **
+** Bir sunucuya ddos koruması scripti yazdım **
+** Bazenleri sosyal platformlarda CTF çözenlere yardım ediyorum **
+** Yeni başlayanlara rehberlik ediyorum **
+** Beni tanıyanlar az'da olsa bir para karşılığında güvenlik sağlamamı istediler **
+** Bir oyun geliştiren gruba anti cheat gibi sistemler yazdım (lua ile) **
+** Ve daha yazmaya yorulduğum şeyler **
 
 ## Teknik
 
