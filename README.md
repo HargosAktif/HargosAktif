@@ -9,31 +9,31 @@
 └─$ cat whoami.txt
 
   İsim     : Miraç — alias LatenT & LaXenT
-  Yaş      : 13
+  Yaş      : 15
   Konum    : Turkey 🇹🇷
-  Deneyim  : 2 yıl (günlük ~8-9 saat çalışarak)
+  Deneyim  : 3 yıl (günlük ~6-8 saat çalışarak)
   Odak     : Offensive Security · Network Hacking · Pentest
-  Durum    : Öğreniyorum · Anonimliği sağlıyorum · Güvenlik duvarı çekiyorum
+  Durum    : Öğreniyorum · Anonimlik sağlıyorum · Güvenlik duvarı çekiyorum
 ```
 
 ---
 
 ## Kimim
 
-Siber güvenlikle **2 yıldır** uğraşıyorum — okul, kurs veya video serisi değil, doğrudan araştırarak, kırarak ve inşa ederek. Terminali seviyorum, araçların altında ne döndüğünü anlamak istiyorum ve öğrendiğim her şeyi pratiğe döküyorum.
+Siber güvenlikle **3 yıldır** uğraşıyorum — okul, kurs veya video serisi değil, doğrudan araştırarak, kırarak ve inşa ederek. Terminali seviyorum cok klasik ve lamer sözü gibi oldu farkındayım :D, araçların altında ne döndüğünü anlamak istiyorum ve öğrendiğim her şeyi pratiğe döküyorum.
 
 **Uzmanlık alanlarım:**
 
 - **Network Recon & Enumeration** — Nmap scripting, servis analizi, ağ haritalama
 - **WiFi Güvenliği** — Evil Twin, Deauth, MITM, Aircrack-ng suite
 - **Web Uygulama Güvenliği** — XSS, SQLi, IDOR, Burp Suite workflow
-- **Araç Geliştirme** — Python ile sıfırdan scanner ve otomasyon araçları
+- **Araç Geliştirme** — Python ile sıfırdan scanner ve otomasyon araçları C# ve Golang ile benzer CTF ortamı için hazırlanmış araçlar
 
 ---
 
-## Gerçek Deneyimlerim
+## Ilk ve gerçek deneyimim
 
-### 🏫 Okul Ağı Güvenlik Denetimi — Yetkili Pentest
+### 🏫 Okul Ağı Güvenlik Yetkili Pentest
 
 Bilişim öğretmenimden yazılı izin alarak okul ağını uçtan uca taradım.
 
@@ -57,8 +57,17 @@ Birkaç hedef üzerinde bağımsız araştırma yaparak XSS açıkları tespit e
 | Proje | Açıklama | Durum |
 |---|---|---|
 | **MAtexX Scanner** | Whois + Nmap + OSINT tek pipeline'da — Python | 🔧 Geliştiriliyor |
-| **SEA Terminal** | Gemini API destekli, pentest modüllü AI asistan | ✅ Çalışıyor |
-| **FinderQ** | Bir Domaindeki Tüm Açıkları Bulan Python Scripti  | ✅ Aktif |
+| **SEA AI** | Gemini API destekli, pentest modüllü AI asistan | ✅ Çalışıyor |
+| **FinderQ** | Bir Domaindeki Tüm Açıkları Bulan Python Scripti  | ✅ Aktif + yayında değil |
+| **shenwin** | Bir kullanıcı adını tazeleyerek sherlock + maigret sistemini gerçekleştiriyor  | ✅ Aktif + yayında! |
+| **FastOS** | Bir işletim sisteminin bilgilerini otomatik olarak toplar ve kullanıcıya verir  | ✅ Aktif + yayında değil |
+| **latentSC** | Tüm toolların birleşimiyle çok güçlü birer yardımcı pentest aracı  | 🔧 Geliştiriliyor + yayında değil |
+| **Cracker** | Jhon + hashcat gibi ama onlardan bir tık daha düşük seviyede hash ve şifre kırıcı | ✅ Çalışıyor + yayında olucak |
+| **no tagged** | trafiği izleyen ve önemli olanları ayıran bir script | ✅ Çalışıyor + yayında değil |
+| **whois-lookup-by-latent** | whois recon toolunu geliştirerek daha iyi output veren bir tool haline getirdim | ✅ Çalışıyor + yayında|
+| **server alive** | trafiğin canlı olup olmadığını gösteren bir tool | ✅ Çalışıyor + yayında |
+
+*** Zamanla daha fazla proje yapmaya çalışıcam yaptığım çoğu projeyi 1 saatlik kullanıp atıyorum çünkü sadece ctf veya legal ortamlarda hack yaparken işime yarıyolar üstte olanlarsa adam akıllı yazdığım scriptler ***
 
 ---
 
@@ -66,7 +75,7 @@ Birkaç hedef üzerinde bağımsız araştırma yaparak XSS açıkları tespit e
 
 **Bildiğim Yazılım Diller**
 ```
-Python · Go · C# · JavaScript · Bash · Assembly (temel)
+Python · Go · C# · JavaScript · Bash · (orta-temel)
 ```
 
 **İşletim Sistemleri (bildiklerim)**
@@ -77,7 +86,7 @@ Kali Linux (ana) · Parrot OS · Arch · BlackArch · Ubuntu · Windows
 **Kullandığım Araçlar**
 ```
 Nmap · Wireshark · Bettercap · Metasploit · Burp Suite
-SQLMap · Gobuster · Feroxbuster · Aircrack-ng · Scapy · Hashcat
+SQLMap · Gobuster · Feroxbuster · Aircrack-ng · Scapy · Hashcat · Jhon the ripper
 ```
 
 **Aktif KUllandığım Platformlar**
