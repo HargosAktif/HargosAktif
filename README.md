@@ -1,3 +1,4 @@
+```
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:1a1a2e,100:16213e&height=140&section=header&text=LatenT&fontSize=72&fontColor=00d4ff&fontAlignY=55&desc=Offensive%20Security%20%7C%20Network%20Hacking%20%7C%20Tool%20Developer&descSize=14&descAlignY=78&descColor=8892b0" width="100%"/>
 </div>
@@ -5,109 +6,120 @@
 <br>
 
 ```
+
 ┌──(latent㉿kali)-[~]
 └─$ cat whoami.txt
 
-  İsim     : Miraç — alias LatenT & LaXenT
-  Yaş      : 15
-  Konum    : Turkey 🇹🇷
-  Deneyim  : 3 yıl (günlük ~6-8 saat çalışarak)
-  Odak     : Offensive Security · Network Hacking · Pentest
-  Durum    : Öğreniyorum · Anonimlik sağlıyorum · Güvenlik duvarı çekiyorum
+Name     : Miraç — alias LatenT & LaXenT
+Age      : 15
+Location : Turkey 🇹🇷
+Experience: 3 years (≈6–8 hours daily study/practice)
+Focus    : Offensive Security · Network Hacking · Pentesting
+Status   : Learning · Maintaining anonymity · Building defenses
+
 ```
 
 ---
 
-## Kimim
+## Who Am I
 
-Siber güvenlikle **3 yıldır** uğraşıyorum — okul, kurs veya video serisi değil, doğrudan araştırarak, kırarak ve inşa ederek. Terminali seviyorum cok klasik ve lamer sözü gibi oldu farkındayım :D, araçların altında ne döndüğünü anlamak istiyorum ve öğrendiğim her şeyi pratiğe döküyorum.
+I have been involved in cybersecurity for **3 years** — not through school courses or video series, but through direct research, breaking, and building. I like the terminal (yes, classic line), I want to understand what happens under the hood of tools, and I apply everything I learn in practice.
 
-**Uzmanlık alanlarım:**
+**My focus areas:**
 
-- **Network Recon & Enumeration** — Nmap scripting, servis analizi, ağ haritalama
-- **WiFi Güvenliği** — Evil Twin, Deauth, MITM, Aircrack-ng suite
-- **Web Uygulama Güvenliği** — XSS, SQLi, IDOR, Burp Suite workflow
-- **Araç Geliştirme** — Python ile sıfırdan scanner ve otomasyon araçları C# ve Golang ile benzer CTF ortamı için hazırlanmış araçlar
-
----
-
-## Ilk ve gerçek deneyimim
-
-### 🏫 Okul Ağı Güvenlik Yetkili Pentest
-
-Bilişim öğretmenimden yazılı izin alarak okul ağını uçtan uca taradım.
-
-**Bulduklarım:**
-- Tüm akıllı tahtalar aynı default root şifresini kullanıyordu — hiçbiri hardened edilmemiş
-- SSH (22) ve RPC portları ağdaki herkese açıktı
-- Teorik saldırı senaryosu: ağa giren herhangi biri tüm sınıflara eş zamanlı uzaktan erişebilirdi
-
-**Sonuç:** Teknik rapor hazırlayıp öğretmenime ilettim. Şifreler değiştirildi, portlar kapatıldı en önemlisi 'root' şifresi değiştirildi.
+- **Network Recon & Enumeration** — Nmap scripting, service analysis, network mapping  
+- **WiFi Security** — Evil Twin, Deauth, MITM, Aircrack-ng suite  
+- **Web Application Security** — XSS, SQLi, IDOR, Burp Suite workflow  
+- **Tool Development** — Python-based scanners and automation tools; C# and Go tools for CTF environments  
 
 ---
 
-### 🐛 Bug Bounty — XSS Açığı Tespiti ve Raporlama
+## My First Real Experience
 
-Birkaç hedef üzerinde bağımsız araştırma yaparak XSS açıkları tespit ettim, PoC hazırlayıp raporladım. Ödeme aldım ama kişisel bir banka hesabım olmadığı için ailem parayı aldı ve bu şekilde bağımsız olmak yerine bazen bazı gruplar benimle iletişime geçiyor ve benden test yapmamı istiyorlar.
+### 🏫 Authorized School Network Pentest
+
+With written permission from my IT teacher, I performed an end-to-end security assessment of the school network.
+
+**Findings:**
+- All smart boards used the same default root password — none were hardened
+- SSH (22) and RPC ports were open to the entire network
+- Theoretical risk: any attacker on the network could gain simultaneous access to all classrooms
+
+**Result:** I prepared a technical report and submitted it to my teacher. Passwords were changed, ports were closed, and most importantly, the root password was updated.
 
 ---
 
-## Aktif Projeler (sadece burda olanlar bazılarını yazmadım)
+### 🐛 Bug Bounty — XSS Discovery & Reporting
 
-| Proje | Açıklama | Durum |
+I independently researched multiple targets and discovered XSS vulnerabilities, created PoCs, and reported them. I received payment, but since I do not have a personal bank account, the money was handled by my family. Occasionally, groups contact me for testing tasks.
+
+---
+
+## Active Projects (only listed here; more exist)
+
+| Project | Description | Status |
 |---|---|---|
-| **MAtexX Scanner** | Whois + Nmap + OSINT tek pipeline'da — Python | 🔧 Geliştiriliyor |
-| **SEA AI** | Gemini API destekli, pentest modüllü AI asistan | ✅ Çalışıyor |
-| **FinderQ** | Bir Domaindeki Tüm Açıkları Bulan Python Scripti  | ✅ Aktif + yayında değil |
-| **shenwin** | Bir kullanıcı adını tazeleyerek sherlock + maigret sistemini gerçekleştiriyor  | ✅ Aktif + yayında! |
-| **FastOS** | Bir işletim sisteminin bilgilerini otomatik olarak toplar ve kullanıcıya verir  | ✅ Aktif + yayında değil |
-| **latentSC** | Tüm toolların birleşimiyle çok güçlü birer yardımcı pentest aracı  | 🔧 Geliştiriliyor + yayında değil |
-| **Cracker** | Jhon + hashcat gibi ama onlardan bir tık daha düşük seviyede hash ve şifre kırıcı | ✅ Çalışıyor + yayında olucak |
-| **no tagged** | trafiği izleyen ve önemli olanları ayıran bir script | ✅ Çalışıyor + yayında değil |
-| **whois-lookup-by-latent** | whois recon toolunu geliştirerek daha iyi output veren bir tool haline getirdim | ✅ Çalışıyor + yayında|
-| **server alive** | trafiğin canlı olup olmadığını gösteren bir tool | ✅ Çalışıyor + yayında |
-
-*** Zamanla daha fazla proje yapmaya çalışıcam yaptığım çoğu projeyi 1 saatlik kullanıp atıyorum çünkü sadece ctf veya legal ortamlarda hack yaparken işime yarıyolar üstte olanlarsa adam akıllı yazdığım scriptler ***
+| **Latent-Probe** | Multi-phase recon: HTML fetching, TCP scanning, subdomain brute force, SMB enumeration, basic XSS testing, SQLMap automation | ✅ Active + live |
+| **SEA AI** | Gemini API-based AI assistant with pentest modules | ✅ Working |
+| **FinderQ** | Finds all vulnerabilities in a domain using Python scripts | ✅ Active + not public |
+| **shenwin** | Username intelligence tool combining Sherlock + Maigret logic | ✅ Active + live |
+| **FastOS** | Collects system information automatically and presents it to the user | ✅ Active + not public |
+| **latentSC** | Combined powerful pentest toolkit (all-in-one tools) | 🔧 In development |
+| **Cracker** | Password/hash cracking tool (simplified version of John/Hashcat) | ✅ Working + planned release |
+| **no tagged** | Traffic monitoring and filtering script | ✅ Working |
+| **whois-lookup-by-latent** | Enhanced WHOIS recon tool with improved output | ✅ Working + live |
+| **server alive** | Checks whether a service/server is alive | ✅ Working + live |
 
 ---
 
-### Aktif olarak
-** Bir Kaç kişiye kişisel eğitim verdim**
-** Parasız sızma testleri yaptım **
-** Bir grup için FiveM'de oyun yapma teklifi aldım **
-** Bir sunucuya ddos koruması scripti yazdım **
-** Bazenleri sosyal platformlarda CTF çözenlere yardım ediyorum **
-** Yeni başlayanlara rehberlik ediyorum **
-** Beni tanıyanlar az'da olsa bir para karşılığında güvenlik sağlamamı istediler **
-** Bir oyun geliştiren gruba anti cheat gibi sistemler yazdım (lua ile) **
-** Ve daha yazmaya yorulduğum şeyler **
+### Additional Activities
 
-## Teknik
+- Gave private lessons to a few people  
+- Performed free penetration tests  
+- Received offers for FiveM game development  
+- Wrote DDoS protection scripts for a server  
+- Helped users on social platforms solving CTFs  
+- Mentored beginners  
+- Occasionally provided paid security assistance  
+- Built anti-cheat systems for game servers (Lua)  
+- And more I got tired of writing  
 
-**Bildiğim Yazılım Diller**
-```
-Python · Go · C# · JavaScript · Bash · (orta-temel)
-```
+---
 
-**İşletim Sistemleri (bildiklerim)**
-```
-Kali Linux (ana) · Parrot OS · Arch · BlackArch · Ubuntu · Windows
+## Technical Skills
+
+**Programming Languages**
 ```
 
-**Kullandığım Araçlar**
+Python · Go · C# · JavaScript · Bash (intermediate/basic)
+
 ```
+
+**Operating Systems**
+```
+
+Kali Linux (main) · Parrot OS · Arch · BlackArch · Ubuntu · Windows
+
+```
+
+**Tools**
+```
+
 Nmap · Wireshark · Bettercap · Metasploit · Burp Suite
-SQLMap · Gobuster · Feroxbuster · Aircrack-ng · Scapy · Hashcat · Jhon the ripper
+SQLMap · Gobuster · Feroxbuster · Aircrack-ng · Scapy · Hashcat · John the Ripper
+
 ```
 
-**Aktif KUllandığım Platformlar**
+**Platforms**
 ```
+
 HackTheBox · TryHackMe
+
 ```
 
 ---
 
-## GitHub İstatistikleri
+## GitHub Stats
 
 <div align="center">
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=LaxenTgit&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=8892b0"/>
@@ -116,7 +128,7 @@ HackTheBox · TryHackMe
 
 ---
 
-## İletişim
+## Contact
 
 <div align="center">
   <a href="https://github.com/LaxenTgit">
@@ -133,3 +145,6 @@ HackTheBox · TryHackMe
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0f0f0f&height=80&section=footer" width="100%"/>
 </div>
+```
+
+---
