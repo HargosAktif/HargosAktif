@@ -6,7 +6,7 @@
 
 ## Whoami
 
-
+```
 ┌──(latent㉿kali)-[~]
 └─$ cat whoami.txt
 
@@ -15,7 +15,7 @@ Location : Turkey 🇹🇷
 Experience : 3+ years (self-taught, daily practice)
 Focus : Offensive Security · Network Security · Pentesting
 Status : Learning · Building tools · Security research
-
+```
 
 ---
 
