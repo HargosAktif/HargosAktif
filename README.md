@@ -1,118 +1,114 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:1a1a2e,100:16213e&height=140&section=header&text=LatenT&fontSize=72&fontColor=00d4ff&fontAlignY=55&desc=Offensive%20Security%20%7C%20Network%20Hacking%20%7C%20Tool%20Developer&descSize=14&descAlignY=78&descColor=8892b0" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:1a1a2e,100:16213e&height=140&section=header&text=LatenT&fontSize=72&fontColor=00d4ff&fontAlignY=55&desc=Offensive%20Security%20%7C%20Network%20Security%20%7C%20Tool%20Development&descSize=14&descAlignY=78&descColor=8892b0" width="100%"/>
 </div>
 
-<br>
+---
+
+## Whoami
+
 
 ┌──(latent㉿kali)-[~]
 └─$ cat whoami.txt
 
-Name     : Miraç — alias LatenT & LaXenT
-Age      : 15
+Name : Miraç (LatenT / LaXenT)
 Location : Turkey 🇹🇷
-Experience: 3 years (≈6–8 hours daily study/practice)
-Focus    : Offensive Security · Network Hacking · Pentesting
-Status   : Learning · Maintaining anonymity · Building defenses
+Experience : 3+ years (self-taught, daily practice)
+Focus : Offensive Security · Network Security · Pentesting
+Status : Learning · Building tools · Security research
 
-```
-
----
-
-## Who Am I
-
-I have been involved in cybersecurity for **3 years** — not through school courses or video series, but through direct research, breaking, and building. I like the terminal (yes, classic line), I want to understand what happens under the hood of tools, and I apply everything I learn in practice.
-
-**My focus areas:**
-
-- **Network Recon & Enumeration** — Nmap scripting, service analysis, network mapping  
-- **WiFi Security** — Evil Twin, Deauth, MITM, Aircrack-ng suite  
-- **Web Application Security** — XSS, SQLi, IDOR, Burp Suite workflow  
-- **Tool Development** — Python-based scanners and automation tools; C# and Go tools for CTF environments  
 
 ---
 
-## My First Real Experience
+## About Me
 
-### 🏫 Authorized School Network Pentest
+I have been involved in cybersecurity for over 3 years. My experience is based on hands-on research, CTF challenges, and independent testing rather than formal education.
 
-With written permission from my IT teacher, I performed an end-to-end security assessment of the school network.
+I focus on understanding how systems work at a low level and building tools that automate security workflows.
+
+---
+
+## Core Focus Areas
+
+- Network reconnaissance and enumeration (Nmap, service analysis, network mapping)
+- Web application security (XSS, SQLi, IDOR, Burp Suite workflows)
+- Wireless security testing (Evil Twin, MITM concepts, Aircrack-ng tools)
+- Security tool development (Python, Go, C# automation tools)
+
+---
+
+## Experience
+
+### Authorized School Network Security Test
+
+With permission from an IT instructor, I performed a security assessment of a school network.
 
 **Findings:**
-- All smart boards used the same default root password — none were hardened
-- SSH (22) and RPC ports were open to the entire network
-- Theoretical risk: any attacker on the network could gain simultaneous access to all classrooms
+- Default credentials were used on multiple devices
+- Exposed services (SSH and RPC) accessible across the network
+- Lack of basic hardening on internal systems
 
-**Result:** I prepared a technical report and submitted it to my teacher. Passwords were changed, ports were closed, and most importantly, the root password was updated.
-
----
-
-### 🐛 Bug Bounty — XSS Discovery & Reporting
-
-I independently researched multiple targets and discovered XSS vulnerabilities, created PoCs, and reported them. I received payment, but since I do not have a personal bank account, the money was handled by my family. Occasionally, groups contact me for testing tasks.
+**Outcome:**
+A report was delivered and security issues were fixed (passwords changed, unnecessary services disabled).
 
 ---
 
-## Active Projects (only listed here; more exist)
+### Bug Bounty Experience
+
+- Discovered and reported XSS vulnerabilities on multiple targets
+- Created PoCs and submitted responsible disclosures
+- Gained practical experience in web application security
+
+---
+
+## Projects
 
 | Project | Description | Status |
-|---|---|---|
-| **Latent-Probe** | Multi-phase recon: HTML fetching, TCP scanning, subdomain brute force, SMB enumeration, basic XSS testing, SQLMap automation | ✅ Active + live |
-| **SEA AI** | Gemini API-based AI assistant with pentest modules | ✅ Working |
-| **FinderQ** | Finds all vulnerabilities in a domain using Python scripts | ✅ Active + not public |
-| **shenwin** | Username intelligence tool combining Sherlock + Maigret logic | ✅ Active + live |
-| **FastOS** | Collects system information automatically and presents it to the user | ✅ Active + not public |
-| **latentSC** | Combined powerful pentest toolkit (all-in-one tools) | 🔧 In development |
-| **Cracker** | Password/hash cracking tool (simplified version of John/Hashcat) | ✅ Working + planned release |
-| **no tagged** | Traffic monitoring and filtering script | ✅ Working |
-| **whois-lookup-by-latent** | Enhanced WHOIS recon tool with improved output | ✅ Working + live |
-| **server alive** | Checks whether a service/server is alive | ✅ Working + live |
+|--------|-------------|--------|
+| Latent-Probe | Multi-stage reconnaissance tool (subdomains, ports, web checks, basic vulnerability checks) | Active |
+| SEA AI | AI assistant with security-related modules | Working |
+| FinderQ | Domain vulnerability enumeration tool | Active (private) |
+| shenwin | Username intelligence tool (Sherlock + Maigret style) | Active |
+| FastOS | System information gathering tool | Active (private) |
+| latentSC | Combined security toolkit (all-in-one pentest utilities) | In development |
+| Cracker | Hash/password cracking utility (educational) | Working |
+| no-tagged | Network traffic monitoring script | Working |
+| whois-lookup-by-latent | Enhanced WHOIS lookup tool | Active |
+| server-alive | Service availability checker | Working |
 
 ---
 
-### Additional Activities
+## Other Activities
 
-- Gave private lessons to a few people  
-- Performed free penetration tests  
-- Received offers for FiveM game development  
-- Wrote DDoS protection scripts for a server  
-- Helped users on social platforms solving CTFs  
-- Mentored beginners  
-- Occasionally provided paid security assistance  
-- Built anti-cheat systems for game servers (Lua)  
-- And more I got tired of writing  
+- Mentoring beginners in cybersecurity and CTF challenges
+- Performing free penetration tests in controlled environments
+- Writing automation scripts for security tasks
+- Developing anti-cheat and server-side security tools (Lua / Python)
+- Assisting in CTF problem-solving communities
 
 ---
 
-## Technical Skills
+## Skills
 
 **Programming Languages**
-```
 
-Python · Go · C# · JavaScript · Bash (intermediate/basic)
+Python · Go · C# · JavaScript · Bash
 
-```
 
 **Operating Systems**
-```
 
-Kali Linux (main) · Parrot OS · Arch · BlackArch · Ubuntu · Windows
+Kali Linux · Parrot OS · Arch Linux · BlackArch · Ubuntu · Windows
 
-```
 
 **Tools**
-```
 
-Nmap · Wireshark · Bettercap · Metasploit · Burp Suite
-SQLMap · Gobuster · Feroxbuster · Aircrack-ng · Scapy · Hashcat · John the Ripper
+Nmap · Wireshark · Burp Suite · Metasploit · SQLMap
+Gobuster · Feroxbuster · Aircrack-ng · Scapy · Hashcat · John the Ripper
 
-```
 
 **Platforms**
-```
 
 HackTheBox · TryHackMe
 
-```
 
 ---
 
@@ -129,19 +125,16 @@ HackTheBox · TryHackMe
 
 <div align="center">
   <a href="https://github.com/LaxenTgit">
-    <img src="https://img.shields.io/badge/GitHub-LaxenTgit-0d1117?style=for-the-badge&logo=github&logoColor=00d4ff&labelColor=0d1117"/>
+    <img src="https://img.shields.io/badge/GitHub-LaxenTgit-0d1117?style=for-the-badge&logo=github&logoColor=00d4ff"/>
   </a>
   &nbsp;
   <a href="mailto:miracakkus836@gmail.com">
-    <img src="https://img.shields.io/badge/Email-miracakkus836@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=00d4ff&labelColor=0d1117"/>
+    <img src="https://img.shields.io/badge/Email-Contact-0d1117?style=for-the-badge&logo=gmail&logoColor=00d4ff"/>
   </a>
 </div>
 
-<br>
+---
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0f0f0f&height=80&section=footer" width="100%"/>
 </div>
-```
-
----
