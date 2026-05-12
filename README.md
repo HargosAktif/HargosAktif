@@ -64,7 +64,8 @@ A report was delivered and security issues were fixed (passwords changed, unnece
 
 | Project | Description | Status |
 |--------|-------------|--------|
-| Latent-Probe | Multi-stage reconnaissance tool (subdomains, ports, web checks, basic vulnerability checks) | Active |
+| Latent-Probe | Multi-stage reconnaissance tool (subdomains, ports, web checks, basic vulnerability checks) | Active | ### 🛠️ Featured Project
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LaxenTgit&repo=latent-probe&theme=radical)](https://github.com/LaxenTgit/latent-probe)
 | SEA AI | AI assistant with security-related modules | Working |
 | FinderQ | Domain vulnerability enumeration tool | Active (private) |
 | shenwin | Username intelligence tool (Sherlock + Maigret style) | Active |
