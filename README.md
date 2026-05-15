@@ -58,6 +58,15 @@ A report was delivered and security issues were fixed (passwords changed, unnece
 - Created PoCs and submitted responsible disclosures
 - Gained practical experience in web application security
 
+**Clans Experience**
+
+* Contributed to two independent projects (Ravix and Alovera) focusing on security engineering and client-side development.
+* Worked on analyzing and improving system security, including identifying weaknesses in application logic, access control mechanisms, and internal client workflows.
+* Participated in development of client-side components and tooling, with emphasis on performance, stability, and secure design practices.
+* Collaborated with project stakeholders to deliver functional improvements and security-oriented fixes across multiple iterations.
+* Gained hands-on experience in applied security concepts within real-world project environments rather than isolated lab scenarios.
+* Total project-based compensation across both engagements was approximately 50,000 TL.
+
 ---
 
 ## Projects
